@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,QADI,CACJ,GAAG,AAAC,CACA,MAAM,CAAE,MAAM,CACd,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,IAAI,CAAG",
+    "sources": [
+        "../sass/twitter-app.sass"
+    ],
+    "names": [],
+    "file": "twitter-app.min.css"
+}

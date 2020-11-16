@@ -1,0 +1,50 @@
+.header
+    position: relative
+    background: #0e0e0e
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100vh
+    font-weight: 400
+    .bg-dark
+        background: #000
+    &-inner
+        position: absolute
+        display: flex
+        justify-content: center
+        align-items: center
+    #myVideo
+        height: 100%
+        width: 100%
+        object-fit: cover
+        filter: grayscale(0.3) brightness(.2) 
+    &-descr
+        padding-left: 30px
+        margin-left: 30px
+        border-left: 1px solid rgba(255, 255, 255, .4)
+    img
+        max-width: 150px
+    p
+        font-size: 24px
+
+@media (max-width: 575px) 
+    .header
+        &-inner
+            position: absolute
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+        &-descr
+            border: none
+            text-align: center
+            padding-left: 0
+            margin-left: 0
+        img
+            margin-bottom: 20px
+        h1
+            font-size: 24px
+        p
+            font-size: 16px
+
+        
